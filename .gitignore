@@ -15,6 +15,10 @@ __pycache__/
 # CSVs
 notebooks/hot_csvs/
 notebooks/top_csvs/
+notebooks/additional_csvs/
+
+# Test notebooks
+notebooks/topics_deep_dive.ipynb
 
 # Transformers cache
 notebooks/transformers_cache

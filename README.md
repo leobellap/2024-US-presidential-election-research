@@ -1,8 +1,8 @@
 # Topic modelling research project
 
-## Goals :heavy_check_mark:
+## Goal :heavy_check_mark:
 
-- To identify and analyze trends in online discussions using topic modeling
+- To identify and analyze trends in online discussions during 2024 United States presidential election using topic modeling
 
 ## Source of data :microscope:
 
@@ -15,10 +15,14 @@
 
 ## Main packages :wrench:
 
-- Praw: to load data from Reddit
-- SpaCy: to tokenize texts
+- PRAW: to load data from Reddit
+- re: to clean data from noise using regular expressions
+- spaCy: to remove stopwords from a dataset
+- pandas: to convert the dataset to a dataframe
 - SentenceTransformers: to create text embeddings
-- BERTopic: to reduce dimensions, cluster and extract topics from the data
+- cuML: to reduce dimensions and cluster embeddings with the power of GPU
+- seaborn: to visualise data distribution
+- BERTopic: to extract topics from the data
 
 ## CI-CD with GitHub Actions :package:
 

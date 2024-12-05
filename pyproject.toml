@@ -1,7 +1,7 @@
 [project]
-name = "TM-Web-Service"
+name = "2024 US presidential election study"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "The main goal of this project is - to identify and analyze trends in reddit discussions during 2024 US election using topic modeling"
 authors = [
     {name = "leobellap", email = "leobellap@gmail.com"},
 ]
