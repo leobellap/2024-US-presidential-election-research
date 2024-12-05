@@ -11,7 +11,7 @@
 ## Web version of the research notebook :computer:
 
 - Deployments - github-pages
-- Link: 
+- Link: <https://leobellap.github.io/2024-US-presidential-election-research/>
 
 ## Main packages :wrench:
 
