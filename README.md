@@ -1,4 +1,4 @@
-# Topic modelling research project
+# 2024 United States presidential election research
 
 ## Goal :heavy_check_mark:
 
@@ -23,8 +23,3 @@
 - cuML: to reduce dimensions and cluster embeddings with the power of GPU
 - seaborn: to visualise data distribution
 - BERTopic: to extract topics from the data
-
-## CI-CD with GitHub Actions :package:
-
-- Linting with Ruff on Push
-- Updating the web version of the research notebook on Push
