@@ -23,3 +23,11 @@
 - cuML: to reduce dimensions and cluster embeddings with the power of GPU
 - seaborn: to visualise data distribution
 - BERTopic: to extract topics from the data
+
+## Repository structure
+
+- Research notebooks can be found in a folder 'notebooks'
+- Gathered data can be found in a folder 'notebooks/original_data'
+- 'load_data.ipynb' file is used to gather data from Reddit
+- 'hot_topics_research.ipynb' and 'top_topics_research.ipynb' files are part of the previous research project. They were used to do a topic modelling of online discussions on Reddit during the last 24 hours.
+- 'dynamic_topics.ipynb' file containes the current research project. It uses data gathered during previous research projects to provide comprehensive view on online discussions on r/politics subreddit during 2024 US Elections.
