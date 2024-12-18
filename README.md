@@ -7,6 +7,7 @@
 ## Source of data :microscope:
 
 - Reddit, r/politics
+- All data was collected by me personally
 
 ## Web version of the research notebook :computer:
 
