@@ -21,8 +21,8 @@ dependencies = [
     "pip>=24.2",
     "nbformat>=5.10.4",
     "ipywidgets>=8.1.5",
-    "cuml-cu12<=24.12,>=24.12.0a0",
-    "dask-cuda<=24.12,>=24.12.0a0",
+    "xformers>=0.0.28.post3",
+    "cuml-cu12==24.12.*",
 ]
 requires-python = "==3.10.*"
 readme = "README.md"
@@ -34,10 +34,5 @@ distribution = false
 
 [[tool.pdm.source]]
 name = "cuml"
-url = "https://pypi.anaconda.org/rapidsai-wheels-nightly/simple"
-include_packages = ["cuml-cu12", "dask-cuda"]
-
-[[tool.pdm.source]]
-name = "xformers"
-url = "https://download.pytorch.org/whl/cu124"
-include_packages = ["xformers"]
+url = "https://pypi.nvidia.com"
+include_packages = ["cuml-cu12"]

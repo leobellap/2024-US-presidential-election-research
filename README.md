@@ -17,7 +17,7 @@
 
 - PRAW: to load data from Reddit
 - re: to clean data from noise using regular expressions
-- spaCy: to remove stopwords from a dataset
+- scikit-learn: to remove stopwords from a dataset
 - pandas: to convert the dataset to a dataframe
 - SentenceTransformers: to create text embeddings
 - cuML: to reduce dimensions and cluster embeddings with the power of GPU
