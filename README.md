@@ -2,7 +2,7 @@
 
 ## Goal :heavy_check_mark:
 
-- To identify and analyze trends in online discussions during 2024 United States presidential election using topic modeling
+- To identify trends and key topics in online discussions during 2024 United States presidential election using Topic Modeling
 
 ## Source of data :microscope:
 
@@ -25,7 +25,7 @@
 - seaborn: to visualise data distribution
 - BERTopic: to extract topics from the data
 
-## Repository structure
+## Repository structure :gear:
 
 - Research notebooks can be found in a folder 'notebooks'
 - Gathered data can be found in a folder 'notebooks/original_data'
